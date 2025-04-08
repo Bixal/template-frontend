@@ -27,6 +27,8 @@ You should discuss with your tech lead to decide the style that fits your projec
 feature/[PROJECT_CODE]-[ISSUE_NO]-[LOWER_CASE_DESCRIPTION]
 ```
 
+**Example**
+
 ```
 feature/BSD-64-robo-validate
 ```
