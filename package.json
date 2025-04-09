@@ -1,0 +1,36 @@
+{
+  "name": "template-frontend",
+  "version": "1.0.0",
+  "description": "A starter template for Vite and USWDS",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "start": "npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bixal/template-frontend.git"
+  },
+  "keywords": [
+    "template",
+    "frontend",
+    "starter",
+    "uswds",
+    "vite"
+  ],
+  "author": "Bixal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bixal/template-frontend/issues"
+  },
+  "homepage": "https://github.com/Bixal/template-frontend#readme",
+  "devDependencies": {
+    "vite": "6.2.5"
+  },
+  "dependencies": {
+    "@uswds/uswds": "3.12.0"
+  }
+}

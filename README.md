@@ -38,3 +38,19 @@ feature/BSD-64-robo-validate
 ```
 BSD fixes #64: Fixed coding standards issues.
 ```
+
+## Getting started
+
+This branch installs Vite and USWDS. To get started run the npm install command.
+
+```
+npm install
+```
+
+Run the local environment with the start command.
+
+```
+npm start
+```
+
+You should get a local server at `http://localhost:5173/`.
