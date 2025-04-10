@@ -1,6 +1,7 @@
 {
   "name": "template-frontend",
   "version": "1.0.0",
+  "type": "module",
   "description": "A starter template for Vite and USWDS",
   "main": "index.js",
   "scripts": {
@@ -28,6 +29,7 @@
   },
   "homepage": "https://github.com/Bixal/template-frontend#readme",
   "devDependencies": {
+    "sass": "1.86.3",
     "vite": "6.2.5"
   },
   "dependencies": {

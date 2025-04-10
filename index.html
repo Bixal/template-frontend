@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,6 +7,47 @@
     <title>Vite App</title>
   </head>
   <body>
+    <header class="usa-header usa-header--basic">
+      <div class="usa-nav-container">
+        <div class="usa-navbar">
+          <div class="usa-logo">
+            <em class="usa-logo__text">
+              <a href="javascript:void(0)" title="<Project title>">
+                USWDS Basic Header
+              </a>
+            </em>
+          </div>
+          <button type="button" class="usa-menu-btn">Menu</button>
+        </div>
+        <nav aria-label="Primary navigation" class="usa-nav">
+          <button type="button" class="usa-nav__close">
+            <img
+              src="node_modules/@uswds/uswds/dist/img/usa-icons/close.svg"
+              role="img"
+              alt="Close"
+            />
+          </button>
+          <section aria-label="Search component">
+            <form class="usa-search usa-search--small" role="search">
+              <label class="usa-sr-only" for="search-field"> Search </label>
+              <input
+                class="usa-input"
+                id="search-field"
+                type="search"
+                name="search"
+              />
+              <button class="usa-button" type="submit">
+                <img
+                  src="node_modules/@uswds/uswds/dist/img/usa-icons-bg/search--white.svg"
+                  class="usa-search__submit-icon"
+                  alt="Search"
+                />
+              </button>
+            </form>
+          </section>
+        </nav>
+      </div>
+    </header>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
