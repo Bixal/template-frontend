@@ -54,3 +54,16 @@ npm start
 ```
 
 You should get a local server at `http://localhost:5173/`.
+
+### USWDS
+
+A default implementation of USWDS. Key files you should know:
+
+- `src/assets/scss/_uswds-theme.scss`. The USWDS theme settings.
+- `src/main.js`. Loads the USWDS styles and JS.
+
+**Static assets**
+
+For now, static assets are imported from `node_modules`.
+
+Alternatively, you could add a plugin, like [`vite-plugin-static-copy`](https://www.npmjs.com/package/vite-plugin-static-copy) and use that to import the USWDS fonts and images into a gitignored `src` directory.

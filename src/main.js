@@ -1,10 +1,10 @@
 import "./assets/css/style.css";
 import "./assets/scss/index.scss";
 
-import "@uswds/uswds/img/usa-icons-bg/search--white.svg";
 import javascriptLogo from "./assets/images/javascript.svg";
 import viteLogo from "/vite.svg";
 
+// All USWDS component JS.
 import "@uswds/uswds";
 import { setupCounter } from "./components/counter.js";
 
