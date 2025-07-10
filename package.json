@@ -4,6 +4,9 @@
   "type": "module",
   "description": "A starter template for Vite and USWDS",
   "main": "index.js",
+  "engines": {
+    "node": "22.x.x"
+  },
   "scripts": {
     "build": "vite build",
     "dev": "vite",
@@ -11,7 +14,8 @@
     "start": "npm run dev",
     "test": "jest",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "accessibility:pa11y": "pa11y-ci"
   },
   "repository": {
     "type": "git",
@@ -38,6 +42,8 @@
     "eslint-plugin-prettier": "5.5.1",
     "globals": "16.3.0",
     "jest": "30.0.4",
+    "pa11y": "9.0.0",
+    "pa11y-ci": "3.1.0",
     "prettier": "^3.5.3",
     "sass": "1.86.3",
     "vite": "6.2.5"
