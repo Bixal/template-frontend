@@ -55,6 +55,24 @@ npm start
 
 You should get a local server at `http://localhost:5173/`.
 
+Run static analysis checks using Eslint recommended rules and Prettier for formatting
+
+```
+npm run lint
+```
+
+Run unit tests with Jest
+
+```
+npm test
+```
+
+Run accessibility scan with Pa11y (requires the dev server to be running)
+
+```
+npm run accessibility:pa11y
+```
+
 ### USWDS
 
 A default implementation of USWDS. Key files you should know:
