@@ -1,0 +1,54 @@
+name: CI workflow
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Code Checkout
+        uses: actions/checkout@v4
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: 'npm'
+      - name: Install node dependencies
+        run: npm ci --timing
+      - name: Lint javascript
+        run: npm run lint
+  test:
+    needs:
+      - lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Code Checkout
+        uses: actions/checkout@v4
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: 'npm'
+      - name: Install node dependencies
+        run: npm ci --timing
+      - name: Run tests
+        run: npm test
+  accessibility:
+    needs:
+      - lint
+      - test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Code Checkout
+        uses: actions/checkout@v4
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: 'npm'
+      - name: Install node dependencies
+        run: npm ci --timing
+      - name: Run the local server and run pa11y-cli against each page
+        run: npm run dev & sleep 30; npm run accessibility:pa11y

@@ -20,7 +20,7 @@ document.querySelector("#app").innerHTML = `
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
-    <p class="read-the-docs" style="color: #767676>
+    <p class="read-the-docs" style="color: #767676">
       Click on the Vite logo to learn more
     </p>
   </div>
