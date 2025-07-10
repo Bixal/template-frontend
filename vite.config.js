@@ -6,7 +6,7 @@ export default defineConfig({
     alias: {
       "@uswds-img": path.resolve(
         __dirname,
-        "./node_modules/@uswds/uswds/dist/img"
+        "./node_modules/@uswds/uswds/dist/img",
       ),
     },
   },
