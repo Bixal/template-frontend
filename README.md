@@ -15,6 +15,8 @@ A template repo will create a new repo with the same file structure, branches, a
 More information on using template repo's:
 https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
 
+Once you've created a new repo, you'll have to update `package.json` with your projects details.
+
 ## Contributing
 
 Repo's should have guidelines for naming branches and commit style. Below are some suggestions based on the [Bixal website](https://github.com/Bixal/bixal-site-drupal).
