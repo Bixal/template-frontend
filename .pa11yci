@@ -1,0 +1,16 @@
+{
+  "defaults": {
+    "timeout": 50000,
+    "chromeLaunchConfig": {
+      "args": [
+        "--no-sandbox"
+      ]
+    },
+    "runners": [
+      "htmlcs"
+    ]
+  },
+  "urls": [
+    "http://localhost:5173"
+  ]
+}

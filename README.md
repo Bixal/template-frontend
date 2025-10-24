@@ -49,3 +49,50 @@ feature/BSD-64-robo-validate
 ```
 BSD fixes #64: Fixed coding standards issues.
 ```
+
+## Getting started
+
+This branch installs Vite and USWDS. To get started run the npm install command.
+
+```
+npm install
+```
+
+Run the local environment with the start command.
+
+```
+npm start
+```
+
+You should get a local server at `http://localhost:5173/`.
+
+Run static analysis checks using Eslint recommended rules and Prettier for formatting
+
+```
+npm run lint
+```
+
+Run unit tests with Jest
+
+```
+npm test
+```
+
+Run accessibility scan with Pa11y (requires the dev server to be running)
+
+```
+npm run accessibility:pa11y
+```
+
+### USWDS
+
+A default implementation of USWDS. Key files you should know:
+
+- `src/assets/scss/_uswds-theme.scss`. The USWDS theme settings.
+- `src/main.js`. Loads the USWDS styles and JS.
+
+**Static assets**
+
+For now, static assets are imported from `node_modules`.
+
+Alternatively, you could add a plugin, like [`vite-plugin-static-copy`](https://www.npmjs.com/package/vite-plugin-static-copy) and use that to import the USWDS fonts and images into a gitignored `src` directory.
