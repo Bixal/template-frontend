@@ -9,12 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Code Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Install Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version-file: ".nvmrc"
-          cache: 'npm'
+          cache: "npm"
       - name: Install node dependencies
         run: npm ci --timing
       - name: Lint javascript
@@ -25,12 +25,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Code Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Install Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version-file: ".nvmrc"
-          cache: 'npm'
+          cache: "npm"
       - name: Install node dependencies
         run: npm ci --timing
       - name: Run tests
@@ -42,12 +42,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Code Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Install Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version-file: ".nvmrc"
-          cache: 'npm'
+          cache: "npm"
       - name: Install node dependencies
         run: npm ci --timing
       - name: Run the local server and run pa11y-cli against each page
