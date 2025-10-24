@@ -1,29 +1,40 @@
 # Frontend template repo
 
-A minimal starter repo for frontend projects. Created to ensure we're following some baseline best practices.
+A simple starter for frontend projects with basic setup and best practices.
 
-## Features
+## What's included
 
-- `.nvmrc` file to ensure we're using the latest LTS version of node.
-- `.npmrc` file to ensure we're pinning dependencies as a best practice. Improves security and maintainability.
-- `.editorconfig` for initial formatting. Teams should consider adding linting and prettier depending on their tech stack.
+You can also use these as references for your own projects.
 
-## How to use this repo
+- `.nvmrc` file for using the latest Node.js LTS version
+- `.npmrc` file to lock dependency versions for better security
+- `.editorconfig` for consistent code formatting
 
-A template repo will create a new repo with the same file structure, branches, and files. You can also choose which branches you want to keep. The git histories are separate, so you can kickstart your repo without worrying if you're affecting the template.
+### Demos
 
-More information on using template repo's:
-https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
+Included are demo branches you can use or reference to help you setup specific tools. Included branches:
+
+| Branch name | Description |
+-- | ---
+`feature/ci-example` | CI workflows with linting, formatting, and a11y checks.
+`feature/vite-uswds` | USWDS, Vite, and modern SASS api setup.
+
+
+## How to use this template
+
+When you create a new repo from this template, you get the same file structure and files without the git history. So you can start cleanly and focus on things specific to your project.
+
+Learn more at [Creating a repository from a template [GitHub]](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+
+After creating your repo, update `package.json` with your project details.
 
 Once you've created a new repo, you'll have to update `package.json` with your projects details.
 
 ## Contributing
 
-Repo's should have guidelines for naming branches and commit style. Below are some suggestions based on the [Bixal website](https://github.com/Bixal/bixal-site-drupal).
+Set up branch naming and commit styles with your team. Here are some examples from the [Bixal website](https://github.com/Bixal/bixal-site-drupal):
 
-You should discuss with your tech lead to decide the style that fits your project best.
-
-### Branch naming conventions
+### Branch names
 
 ```
 feature/[PROJECT_CODE]-[ISSUE_NO]-[LOWER_CASE_DESCRIPTION]
@@ -35,7 +46,7 @@ feature/[PROJECT_CODE]-[ISSUE_NO]-[LOWER_CASE_DESCRIPTION]
 feature/BSD-64-robo-validate
 ```
 
-### Commit style
+### Commit messages
 
 ```
 BSD fixes #64: Fixed coding standards issues.
