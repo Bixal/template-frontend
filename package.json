@@ -29,8 +29,8 @@
   },
   "homepage": "https://github.com/Bixal/template-frontend#readme",
   "devDependencies": {
-    "sass-embedded": "1.93.2",
-    "vite": "7.1.12"
+    "sass-embedded": "1.93.3",
+    "vite": "7.2.4"
   },
   "dependencies": {
     "@uswds/uswds": "3.13.0"
