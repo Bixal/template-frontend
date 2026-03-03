@@ -35,19 +35,19 @@
   },
   "homepage": "https://github.com/Bixal/template-frontend#readme",
   "devDependencies": {
-    "@eslint/compat": "2.0.0",
-    "@eslint/js": "9.39.2",
-    "eslint": "9.39.2",
+    "@eslint/compat": "2.0.2",
+    "@eslint/js": "10.0.1",
+    "eslint": "10.0.2",
     "eslint-config-prettier": "10.1.8",
-    "eslint-plugin-prettier": "5.5.4",
-    "globals": "16.5.0",
+    "eslint-plugin-prettier": "5.5.5",
+    "globals": "17.4.0",
     "jest": "30.2.0",
-    "pa11y": "9.0.1",
-    "pa11y-ci": "4.0.1",
-    "prettier": "3.7.4",
-    "sass": "1.97.1",
-    "sass-embedded": "1.97.1",
-    "vite": "7.3.0"
+    "pa11y": "9.1.1",
+    "pa11y-ci": "4.1.0",
+    "prettier": "3.8.1",
+    "sass": "1.97.3",
+    "sass-embedded": "1.97.3",
+    "vite": "7.3.1"
   },
   "dependencies": {
     "@uswds/uswds": "3.13.0"
