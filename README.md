@@ -7,18 +7,17 @@ A simple starter for frontend projects with basic setup and best practices.
 You can also use these as references for your own projects.
 
 - `.nvmrc` file for using the latest Node.js LTS version
-- `.npmrc` file to lock dependency versions for better security
+- `.npmrc` file to pin dependencies and delay installing newly published package
 - `.editorconfig` for consistent code formatting
 
 ### Demos
 
 Included are demo branches you can use or reference to help you setup specific tools. Included branches:
 
-| Branch name | Description |
--- | ---
-`feature/ci-example` | CI workflows with linting, formatting, and a11y checks.
-`feature/vite-uswds` | USWDS, Vite, and modern SASS api setup.
-
+| Branch name          | Description                                             |
+| -------------------- | ------------------------------------------------------- |
+| `feature/ci-example` | CI workflows with linting, formatting, and a11y checks. |
+| `feature/vite-uswds` | USWDS, Vite, and modern SASS api setup.                 |
 
 ## How to use this template
 
